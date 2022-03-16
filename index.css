@@ -1,6 +1,9 @@
 /* This stylesheet belongs to SpedEX Inc website */
 
 /* Tools */
+.boda{
+    border-radius: 7px;
+}
 .rapb{
     border: 2px solid black;
 }
@@ -12,8 +15,12 @@
     justify-content: center;
     align-items: center;
 }
+.jae{
+    justify-content: space-evenly;
+    align-items: center;
+}
 .jas{
-    justify-content: space-around;
+    justify-content: space-evenly ;
     align-items: center;
 }
 .jab{
@@ -22,6 +29,12 @@
 }
 .c{
     flex-direction: column;
+}
+
+.my-btn{
+    outline: none;
+    border: none;
+    
 }
 
 
