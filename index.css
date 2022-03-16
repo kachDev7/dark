@@ -1,0 +1,58 @@
+/* This stylesheet belongs to SpedEX Inc website */
+
+/* Tools */
+.rapb{
+    border: 2px solid black;
+}
+.rapw{
+    border: 2px solid white;
+}
+/* Universals */
+.jac{
+    justify-content: center;
+    align-items: center;
+}
+.jas{
+    justify-content: space-around;
+    align-items: center;
+}
+.jab{
+    justify-content: space-between;
+    align-items: center;
+}
+.c{
+    flex-direction: column;
+}
+
+
+
+/* Css for Home page */
+.nav-item{
+    margin-left: 20px;
+}
+.links:hover{
+    font-weight: bolder;
+    color: black;
+}
+
+.carousel-inner{
+    position: relative;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 200px;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #6da1ee;
+    opacity: 0.5;
+}
